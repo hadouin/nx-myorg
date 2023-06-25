@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-myorg/is-even": ["packages/is-even/src/index.ts"],
+      "@nx-myorg/is-odd": ["packages/is-odd/src/index.ts"],
+      "@nx-myorg/library-test-angular": [
+        "packages/library-test-angular/src/index.ts"
+      ],
+      "@nx-myorg/ui": ["packages/ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
